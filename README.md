@@ -1,4 +1,5 @@
 # API Testing Example with Restassured and TestNG
+This repo demonstrates how to do API Test Automation using Restassured and TestNG.
 
 <!--ts-->
 * [API Testing Example with Restassured and TestNG](#api-testing-example-with-restassured-and-testng)
@@ -17,8 +18,6 @@
 
 <!--te-->
 
-This repo demonstrates how to do API Test Automation using Restassured and TestNG.
-
 ## Application under Test
 
 We will be testing the [Thinking Tester Contact List App](https://thinking-tester-contact-list.herokuapp.com/)
@@ -27,7 +26,7 @@ Specifically, the [API](https://documenter.getpostman.com/view/4012288/TzK2bEa8)
 
 ## Exactly what APIs are we testing?
 
-In case Thinking App goes down or the API is updated, here is the gist of the current APIs at the time of testing.
+In case Thinking App goes down or the API is updated, here is the gist of the current APIs tested at the time of writing.
 
 ### Add User
 
