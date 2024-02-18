@@ -1,5 +1,7 @@
 # API & UI Testing Example with Restassured, Selenium and TestNG
-This repo demonstrates how to do API Test Automation using Restassured and TestNG.
+This repo demonstrates how to do Test Automation using Java, TestNg & Maven.
+- For the API Test Automation we use Restassured
+- For the UI Test Automation we use Selenium
 
 <!--ts-->
 * [API &amp; UI Testing Example with Restassured, Selenium and TestNG](#api--ui-testing-example-with-restassured-selenium-and-testng)
