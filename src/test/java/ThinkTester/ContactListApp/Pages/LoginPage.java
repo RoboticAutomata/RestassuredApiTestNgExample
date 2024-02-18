@@ -15,11 +15,14 @@ public class LoginPage extends BasePage {
 	
 	public void open() {
 		driver.navigate().to(Environment.HEROKU);
-		this.isLoaded();
+	}
+	
+	public void navigateToAddUserPage() {
+		driver.findElement(SIGNUP_BUTTON).click();
 	}
 
 	@Override
-	public void isLoaded() {
+	public void assertIsLoaded() {
 		wait.until(
 				ExpectedConditions.elementToBeClickable(SIGNUP_BUTTON)
 				);

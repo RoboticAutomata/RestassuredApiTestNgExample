@@ -8,7 +8,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import ThinkTester.ContactListApp.Apis.UserApi;
+import ThinkTester.ContactListApp.Pages.AddUserPage;
+import ThinkTester.ContactListApp.Pages.ContactListPage;
 import ThinkTester.ContactListApp.Pages.LoginPage;
 import ThinkTester.ContactListApp.Utils.UserFactory;
 
@@ -24,36 +25,30 @@ public class SmokeUiTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		new LoginPage(driver).open();
+		LoginPage loginPage = new LoginPage(driver);
+		loginPage.open();
+		loginPage.assertIsLoaded();
 	}
 	
 	@Test
 	public void happyPathTest() {	
-		//signup
-		//wait
+		LoginPage loginPage = new LoginPage(driver);
+		loginPage.navigateToAddUserPage();
 		
-		//register
-		//wait
+		AddUserPage addUserPage = new AddUserPage(driver);
+		addUserPage.assertIsLoaded();
 		
-		//login
-		//wait
+		addUserPage.addNewUser(user);
+		
+		ContactListPage contactListPage = new ContactListPage(driver);
+		contactListPage.assertIsLoaded();
+		
+		contactListPage.logout();
+		loginPage.assertIsLoaded();
 	}
 	
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
-		
-		//deleteUser();
-	}
-	
-	private void deleteUser() {	
-		String token = UserApi.loginUser(user)
-				.then().assertThat().statusCode(200)
-				.extract().jsonPath().get("token");
-
-		user.put("token", token);
-		
-		UserApi.deleteUser(token)
-			.then().assertThat().statusCode(200);
 	}
 }

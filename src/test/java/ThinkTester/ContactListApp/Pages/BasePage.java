@@ -14,6 +14,6 @@ public abstract class BasePage {
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	}
 	
-	public abstract void isLoaded();
+	public abstract void assertIsLoaded();
 
 }
