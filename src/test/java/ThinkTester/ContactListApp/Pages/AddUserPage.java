@@ -18,8 +18,8 @@ public class AddUserPage extends BasePage {
 	public AddUserPage(WebDriver driver) {
 		super(driver);
 	}
-    
-    @Override
+
+	@Override
 	public void assertIsLoaded() {
 		wait.until(ExpectedConditions.elementToBeClickable(SUBMIT_BUTTON));
 	}

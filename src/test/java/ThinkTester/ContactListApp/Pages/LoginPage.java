@@ -23,8 +23,6 @@ public class LoginPage extends BasePage {
 
 	@Override
 	public void assertIsLoaded() {
-		wait.until(
-				ExpectedConditions.elementToBeClickable(SIGNUP_BUTTON)
-				);
+		wait.until(ExpectedConditions.elementToBeClickable(SIGNUP_BUTTON));
 	}
 }

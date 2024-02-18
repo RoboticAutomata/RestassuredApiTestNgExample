@@ -1,9 +1,13 @@
-# API Testing Example with Restassured and TestNG
+# API & UI Testing Example with Restassured, Selenium and TestNG
 This repo demonstrates how to do API Test Automation using Restassured and TestNG.
 
 <!--ts-->
-* [API Testing Example with Restassured and TestNG](#api-testing-example-with-restassured-and-testng)
+* [API &amp; UI Testing Example with Restassured, Selenium and TestNG](#api--ui-testing-example-with-restassured-selenium-and-testng)
    * [Application under Test](#application-under-test)
+   * [Example Scenario to Automate](#example-scenario-to-automate)
+      * [Login Page](#login-page)
+      * [Add User Page](#add-user-page)
+      * [Contact List](#contact-list)
    * [Exactly what APIs are we testing?](#exactly-what-apis-are-we-testing)
       * [Add User](#add-user)
       * [Login User](#login-user)
@@ -11,10 +15,12 @@ This repo demonstrates how to do API Test Automation using Restassured and TestN
       * [Delete User](#delete-user)
    * [Repository Structure](#repository-structure)
    * [Run the tests](#run-the-tests)
+      * [Run the API Tests](#run-the-api-tests)
+      * [Run the UI Tests](#run-the-ui-tests)
    * [Resources](#resources)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: rashad, at: Sat Feb 17 05:18:10 PM EST 2024 -->
+<!-- Added by: rashad, at: Sun Feb 18 03:37:02 PM EST 2024 -->
 
 <!--te-->
 
