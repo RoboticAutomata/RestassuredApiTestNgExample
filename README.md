@@ -108,13 +108,10 @@ src/test/java/ThinkTester/ContactListApp
 
 ## Run the tests
 
-1. From the commandline:
-
+### Run the API Tests
 ```
-mvn clean verify
+mvn clean verify -Dtest=*ApiTest
 ```
-
-2. In Eclipse, make sure to use the TestNG plugin.
 
 ## Resources
 
