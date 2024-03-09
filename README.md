@@ -5,22 +5,23 @@ This repo demonstrates how to do Test Automation using Java, TestNg & Maven.
 
 **Table of Contents**
 <!--ts-->
-* [API &amp; UI Testing Example with Restassured, Selenium and TestNG](#api--ui-testing-example-with-restassured-selenium-and-testng)
-   * [Application under Test](#application-under-test)
-   * [Example Scenario to Automate](#example-scenario-to-automate)
-      * [Login Page](#login-page)
-      * [Add User Page](#add-user-page)
-      * [Contact List](#contact-list)
-   * [Exactly what APIs are we testing?](#exactly-what-apis-are-we-testing)
-      * [Add User](#add-user)
-      * [Login User](#login-user)
-      * [Logout User](#logout-user)
-      * [Delete User](#delete-user)
-   * [Repository Structure](#repository-structure)
-   * [Run the tests](#run-the-tests)
-      * [Run the API Tests](#run-the-api-tests)
-      * [Run the UI Tests](#run-the-ui-tests)
-   * [Resources](#resources)
+* [Application under Test](#application-under-test)
+* [Example Scenario to Automate](#example-scenario-to-automate)
+  * [Login Page](#login-page)
+  * [Add User Page](#add-user-page)
+  * [Contact List](#contact-list)
+* [Exactly what APIs are we testing?](#exactly-what-apis-are-we-testing)
+  * [Add User](#add-user)
+  * [Login User](#login-user)
+  * [Logout User](#logout-user)
+  * [Delete User](#delete-user)
+* [Repository Structure](#repository-structure)
+* [Run the tests](#run-the-tests)
+  * [Run the API Tests](#run-the-api-tests)
+  * [Run the UI Tests](#run-the-ui-tests)
+* [Resources](#resources)
+  * [API Tutorials](#api-tutorials)
+  * [UI Tutorials](#ui-tutorials)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!-- Added by: rashad, at: Sun Feb 18 03:37:02 PM EST 2024 -->
@@ -148,4 +149,9 @@ mvn clean verify -Dtest=*UiTest
 
 ## Resources
 
+### API Tutorials
+- [Youtube Video Demo](https://www.youtube.com/watch?v=3ZI9fF9IeP8)
+- [Medium Blog Tutorial](https://medium.com/@RoboticAutomata/restassured-testng-api-test-automation-tutorial-68be216e4d63)
+
+### UI Tutorials
 Hopefully, we'll be adding a Youtube demo and Blog tutorial soon.
