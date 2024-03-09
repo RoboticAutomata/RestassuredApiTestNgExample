@@ -21,6 +21,8 @@ This repo demonstrates how to do Test Automation using Java, TestNg & Maven.
       * [Run the API Tests](#run-the-api-tests)
       * [Run the UI Tests](#run-the-ui-tests)
    * [Resources](#resources)
+      * [API Tutorials](#api-tutorials)
+      * [UI Tutorials](#ui-tutorials)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!-- Added by: rashad, at: Sun Feb 18 03:37:02 PM EST 2024 -->
@@ -148,4 +150,9 @@ mvn clean verify -Dtest=*UiTest
 
 ## Resources
 
+### API Tutorials
+- [Youtube Video Demo](https://www.youtube.com/watch?v=3ZI9fF9IeP8)
+- [Medium Blog Tutorial](https://medium.com/@RoboticAutomata/restassured-testng-api-test-automation-tutorial-68be216e4d63)
+
+### UI Tutorials
 Hopefully, we'll be adding a Youtube demo and Blog tutorial soon.
