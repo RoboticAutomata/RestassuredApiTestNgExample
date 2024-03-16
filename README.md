@@ -30,9 +30,9 @@ This repo demonstrates how to do Test Automation using Java, TestNg & Maven.
 
 ## Application under Test
 
-We will be testing the [Thinking Tester Contact List App](https://thinking-tester-contact-list.herokuapp.com/)
+We will be testing the [Thinking Tester Contact List App](https://thinking-tester-contact-list.herokuapp.com/) (CLA). The CLA enables a user to create an account to manage contacts.
 
-Specifically, the [API](https://documenter.getpostman.com/view/4012288/TzK2bEa8)
+The CLA API Documentation can be found [here](https://documenter.getpostman.com/view/4012288/TzK2bEa8).
 
 ## Example Scenario to Automate
 Our test covers the specific workflow of opening the login page, creating a new user and logging out.
@@ -150,8 +150,10 @@ mvn clean verify -Dtest=*UiTest
 ## Resources
 
 ### API Tutorials
-- [Youtube Video Demo](https://www.youtube.com/watch?v=3ZI9fF9IeP8)
-- [Medium Blog Tutorial](https://medium.com/@RoboticAutomata/restassured-testng-api-test-automation-tutorial-68be216e4d63)
+- [Youtube Video Demo API](https://www.youtube.com/watch?v=3ZI9fF9IeP8)
+- [Medium Blog Tutorial API](https://medium.com/@RoboticAutomata/restassured-testng-api-test-automation-tutorial-68be216e4d63)
 
 ### UI Tutorials
-Hopefully, we'll be adding a Youtube demo and Blog tutorial soon.
+- [Youtube Video Demo UI](https://youtu.be/14JRzMRI5yE)
+- [Medium Blog Tutorial UI](https://medium.com/@RoboticAutomata/selenium-testng-ui-test-automation-tutorial-de7ef8bda5af)
+
